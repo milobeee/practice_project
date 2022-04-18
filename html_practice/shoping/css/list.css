@@ -1,0 +1,118 @@
+.nav {
+    overflow:hidden;
+}
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    padding: 0 14px;
+    border-left: 1px solid #c81523;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk_bd ul li {
+    float: left;
+    width: 288px;
+    height: 458px;
+    margin-right: 16px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #e12228;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 10px;
+}
+.jiage {
+    height: 44px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+.jiage h5 {
+    float: left;
+    font-size: 22px;
+    line-height: 42px;
+    color: #e60012;
+}
+.jiage h5 i {
+    font-size: 14px;
+}
+.jiage h4 {
+    float: left;
+    font-size: 14px;
+    line-height: 46px;
+    text-decoration: line-through;
+    color: #a4a4a4;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.shengyu {
+    height: 15px;
+    margin: 0 10px;
+}
+.pro {
+    float: left;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #ed282e;
+    border-radius: 6px;
+    margin: 6px 8px 0;
+}
+.pro div {
+    float: left;
+    width: 100px;
+    height: 11px;
+    margin: 0;
+    background-color: #ed282e;
+    border-radius: 6px 0 0 6px;
+}
+.shengyu i {
+    float: left;
+    font-size: 14px;
+}
+.btn {
+    float: left;
+    margin-top: 7px;
+    width: 286px;
+    height: 50px;
+    background-color: #b1191a;
+}
+.sk_bd ul li div p {
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
